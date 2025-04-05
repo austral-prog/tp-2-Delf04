@@ -1,10 +1,8 @@
 def change():
      expense = 23.75
      money = 100
-    
      vuelto = expense - money 
      centavos = int((vuelto) *100)
-
     print("Dinero gastado")
     print(f"{expense}")
     print("Dinero Dado")
